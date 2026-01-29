@@ -6,6 +6,7 @@ import { Menu, X, Mail } from "lucide-react";
 import Link from "next/link";
 
 const navLinks = [
+  { label: "About", href: "/about" },
   { label: "How It Works", href: "/about" },
   { label: "FAQ", href: "/faq" },
   { label: "For Lenders", href: "#lenders" },
