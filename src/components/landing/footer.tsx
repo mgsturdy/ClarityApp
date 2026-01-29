@@ -4,28 +4,15 @@ import Link from "next/link";
 
 const footerLinks = {
   Products: [
-    { label: "Advance", href: "/advance" },
-    { label: "Secure", href: "/secure" },
-    { label: "For Lenders", href: "/lenders" },
-    { label: "Clarity Score", href: "/clarity-score" },
-  ],
-  Company: [
-    { label: "About Us", href: "/about" },
-    { label: "Careers", href: "/careers" },
-    { label: "Press", href: "/press" },
-    { label: "Contact", href: "/contact" },
+    { label: "Advance", href: "#products" },
+    { label: "Secure", href: "#products" },
+    { label: "For Lenders", href: "#lenders" },
   ],
   Resources: [
     { label: "How It Works", href: "#how-it-works" },
-    { label: "FAQ", href: "/faq" },
-    { label: "Blog", href: "/blog" },
-    { label: "Help Center", href: "/help" },
   ],
-  Legal: [
-    { label: "Privacy Policy", href: "/privacy" },
-    { label: "Terms of Service", href: "/terms" },
-    { label: "Disclosures", href: "/disclosures" },
-    { label: "Licenses", href: "/licenses" },
+  Contact: [
+    { label: "Email Us", href: "mailto:hello@clarityfinance.com" },
   ],
 };
 
@@ -34,9 +21,9 @@ export function Footer() {
     <footer className="bg-white border-t border-[#e2e8f0]">
       <div className="mx-auto max-w-7xl px-6 py-12 lg:py-16">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-2 md:grid-cols-6 gap-8 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
           {/* Logo & Description */}
-          <div className="col-span-2">
+          <div className="col-span-2 md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-[#0f2744] rounded flex items-center justify-center">
                 <span className="text-white font-bold text-sm">C</span>
@@ -74,14 +61,10 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-[#e2e8f0] flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="pt-8 border-t border-[#e2e8f0]">
           <p className="text-sm text-[#64748b]">
             © {new Date().getFullYear()} Clarity Finance, Inc. All rights reserved.
           </p>
-          <div className="flex items-center gap-6 text-sm text-[#64748b]">
-            <span>NMLS #12345678</span>
-            <span>SEC Registered Investment Adviser</span>
-          </div>
         </div>
 
         {/* Disclaimer */}

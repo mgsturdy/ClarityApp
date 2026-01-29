@@ -10,13 +10,12 @@ const navLinks = [
     label: "Products",
     href: "#products",
     submenu: [
-      { label: "Advance", href: "/advance", description: "Post-probate advances" },
-      { label: "Secure", href: "/secure", description: "Pre-probate lending" },
+      { label: "Advance", href: "#products", description: "Post-probate advances" },
+      { label: "Secure", href: "#products", description: "Pre-probate lending" },
     ],
   },
   { label: "How It Works", href: "#how-it-works" },
   { label: "For Lenders", href: "#lenders" },
-  { label: "About", href: "/about" },
 ];
 
 export function Navbar() {

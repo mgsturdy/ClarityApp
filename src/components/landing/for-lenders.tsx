@@ -48,7 +48,7 @@ export function ForLenders() {
               A New Asset Class in Estate Lending
             </h2>
             <p className="text-lg text-[#475569] mb-8">
-              Join our marketplace of accredited lenders capitalizing on the $124 trillion 
+              Join our marketplace of private lenders capitalizing on the $124 trillion 
               wealth transfer. Bid on verified inheritance advances with transparent 
               underwriting and secured returns.
             </p>
