@@ -58,7 +58,7 @@ export default function AboutPage() {
           <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold text-[#0f172a] mb-6">
             The Problem We Solve
           </h2>
-          <div className="prose prose-lg text-[#475569] max-w-none">
+          <div className="space-y-6 text-lg text-[#475569]">
             <p>
               When someone passes away, their heirs often face an 18-24 month wait for probate 
               to conclude. Even before death, families may know a significant inheritance is coming 
