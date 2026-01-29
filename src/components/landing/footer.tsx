@@ -3,16 +3,13 @@
 import Link from "next/link";
 
 const footerLinks = {
-  Products: [
-    { label: "Advance", href: "#products" },
-    { label: "Secure", href: "#products" },
+  Learn: [
+    { label: "How It Works", href: "/about" },
+    { label: "FAQ", href: "/faq" },
     { label: "For Lenders", href: "#lenders" },
   ],
-  Resources: [
-    { label: "How It Works", href: "#how-it-works" },
-  ],
   Contact: [
-    { label: "Email Us", href: "mailto:hello@clarityfinance.com" },
+    { label: "Email Us", href: "mailto:mg@mattgoulet.ca" },
   ],
 };
 
@@ -21,7 +18,7 @@ export function Footer() {
     <footer className="bg-white border-t border-[#e2e8f0]">
       <div className="mx-auto max-w-7xl px-6 py-12 lg:py-16">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           {/* Logo & Description */}
           <div className="col-span-2 md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
